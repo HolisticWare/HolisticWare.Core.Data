@@ -8,7 +8,7 @@
     <ProjectGuid>{4DBC9D94-F98F-4326-8CC5-318F947A01E3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HolisticWare.Core.Data</RootNamespace>
+    <RootNamespace>Core</RootNamespace>
     <AssemblyName>HolisticWare.Core.Data</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile136</TargetFrameworkProfile>
@@ -33,13 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-    <None Include="Data\JSON\readme.md" />
+    <Compile Include="Data\JSON\DynamicJsonConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\JSON\DynamicJsonObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\JSON\JavaScriptConverter.cs" />
+    <Compile Include="Data\JSON\JavaScriptSerializer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\JSON\DynamicJsonConverter.cs" />
-    <Compile Include="Data\JSON\DynamicJsonObject.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Data\JSON\readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

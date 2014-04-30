@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HolisticWare.Core.Data.Data.JSON
+
+using System.Collections.ObjectModel;
+
+namespace Core.Data.JSON
 {
 	public class DynamicJsonConverter : JavaScriptConverter
 	{

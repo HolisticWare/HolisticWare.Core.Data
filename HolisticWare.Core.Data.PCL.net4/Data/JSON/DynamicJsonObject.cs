@@ -6,7 +6,7 @@ using System.Text;
 
 using System.Dynamic;
 
-namespace HolisticWare.Core.Data.Data.JSON
+namespace Core.Data.JSON
 {
 	/// <summary>
 	/// 
