@@ -1,10 +1,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Data.XamarinIOS", "HolisticWare.Core.Data.XamarinIOS\HolisticWare.Core.Data.XamarinIOS.csproj", "{F80C1639-A6CB-4B66-AC43-63034C3379FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Data.DLL.net4", "HolisticWare.Core.Data.DLL.net4\HolisticWare.Core.Data.DLL.net4.csproj", "{F05CE316-6762-476E-B4E3-6AF49699B022}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Data.PCL.net4", "HolisticWare.Core.Data.PCL.net4\HolisticWare.Core.Data.PCL.net4.csproj", "{4DBC9D94-F98F-4326-8CC5-318F947A01E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Data", "HolisticWare.Core.Data\HolisticWare.Core.Data.csproj", "{D130AEF2-AC8B-4B90-9745-832790917963}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{4DBC9D94-F98F-4326-8CC5-318F947A01E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DBC9D94-F98F-4326-8CC5-318F947A01E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DBC9D94-F98F-4326-8CC5-318F947A01E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D130AEF2-AC8B-4B90-9745-832790917963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D130AEF2-AC8B-4B90-9745-832790917963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D130AEF2-AC8B-4B90-9745-832790917963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D130AEF2-AC8B-4B90-9745-832790917963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
