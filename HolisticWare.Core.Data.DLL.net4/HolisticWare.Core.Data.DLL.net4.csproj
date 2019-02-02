@@ -39,10 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\JSON\DynamicJsonConverter.cs" />
-    <Compile Include="Data\JSON\DynamicJsonObject.cs" />
-    <Compile Include="Data\JSON\JavaScriptConverter.cs" />
-    <Compile Include="Data\JSON\JavaScriptSerializer.cs" />
+    <Compile Include="Data\JSON\DynamicJsonConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\JSON\DynamicJsonObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\JSON\JavaScriptConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\JSON\JavaScriptSerializer.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
